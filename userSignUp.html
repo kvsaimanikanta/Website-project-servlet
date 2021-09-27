@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>User SignUp</title>
+</head>
+<body>
+<body style ="background-color:AliceBlue;"/>
+<h1>User SignUp Page</h1>
+<form action="UserSignUp">
+
+	Name : <input type="text" placeholder="Enter Name" name="name" id="name" required><br><br>
+	Email : <input type="email" placeholder="Enter Email" name="email" id="email" required>	<br><br>
+	Password : <input type="password" placeholder="Enter Password" name="password" id="pass" maxlength="15" required><br><br>
+	Number : <input type="text" placeholder="Enter Number" name="number" id="number" required><br><br>
+	Skills : <input type="text" placeholder="Enter Skills" name="skills" id="skills" required><br><br>
+	Year Of Passed Out :<br>
+	<input type="radio" id="2018" name="yop" value="2018">2018<br>
+	<input type="radio" id="2019" name="yop" value="2019">2019<br>
+	<input type="radio" id="2020" name="yop" value="2020">2020<br>
+	<input type="radio" id="2021" name="yop" value="2021">2021<br><br><br>
+	Qualification: <input type="text" placeholder="Qualification" name="qualification" id="qualification" required><br><br>
+	Experience : <input type="text" placeholder="Experience" name="exp" id="exp" required><br><br>
+	Current Working Organization : <input type="text" placeholder="Current Working Organization" name="org" id="org" required><br><br>
+	Current CTC : <input type="text" placeholder="Current CTC" name="ctc" id="ctc" required><br><br>
+	Job Role : <input type="text" placeholder="Job Role" name="jobrole" id="jobrole" required><br><br>
+	Gender :<br>
+	<input type="radio" name="gender" value="male">Male<br>
+	<input type="radio" name="gender" value="female">Female<br>
+	<input type="radio" name="gender" value="other">Other<br><br>
+	Location : <br>
+	<select name = "location">
+	<option value="hyd">Hyd</option>
+	<option value="chennai">Chennai</option>
+	<option value="bangalore">Bangalore</option>
+	</select><br><br>
+	Notice Period : <input type="text" placeholder="Notice Period" name="notice" id="notice" required><br><br>
+	<button type="submit" id ="submit">SignUp</button><br><br>
+	Alredy have Account?  <a href="userLogin.html">Login</a>
+
+</form>
+</body>
+</html>
