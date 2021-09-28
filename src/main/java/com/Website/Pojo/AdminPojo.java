@@ -19,6 +19,9 @@ public class AdminPojo {
 	
 	@Column
 	private String password;
+	
+	public void name(){
+	}
 
 	public int getAdminId() {
 		return adminId;
