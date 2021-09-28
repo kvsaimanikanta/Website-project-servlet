@@ -186,5 +186,14 @@ public class UserPojo {
 	public void setQualification(String qualification) {
 		this.qualification = qualification;
 	}
+
+	@Override
+	public String toString() {
+		return "UserPojo [userId=" + userId + ", name=" + name + ", email=" + email + ", password=" + password
+				+ ", number=" + number + ", skills=" + skills + ", yop=" + yop + ", experience=" + experience
+				+ ", organization=" + organization + ", ctc=" + ctc + ", jobrole=" + jobrole + ", location=" + location
+				+ ", gender=" + gender + ", notice=" + notice + ", isActive=" + isActive + ", qualification="
+				+ qualification + "]";
+	}
 	
 }
