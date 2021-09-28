@@ -165,5 +165,14 @@ public class ApplicationPojo {
 		JobId = jobId;
 	}
 
+	@Override
+	public String toString() {
+		return "ApplicationPojo [ApliId=" + ApliId + ", ApliName=" + ApliName + ", ApliEmail=" + ApliEmail
+				+ ", ApliNumber=" + ApliNumber + ", ApliCtc=" + ApliCtc + ", ApliSkills=" + ApliSkills + ", ApliYop="
+				+ ApliYop + ", ApliQualification=" + ApliQualification + ", ApliExperience=" + ApliExperience
+				+ ", ApliNotice=" + ApliNotice + ", ApliUserId=" + ApliUserId + ", InterviewDate=" + InterviewDate
+				+ ", Orgnization=" + Orgnization + ", JobId=" + JobId + "]";
+	}
+
 }
 
