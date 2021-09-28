@@ -13,7 +13,7 @@ public class AdminPojo {
 	@Id @GeneratedValue
 	@Column
 	private int adminId;
-	
+
 	@Column
 	private String email;
 	
@@ -42,6 +42,11 @@ public class AdminPojo {
 
 	public void setPassword(String password) {
 		this.password = password;
+	}
+	
+	@Override
+	public String toString() {
+		return "AdminPojo [adminId=" + adminId + ", email=" + email + ", password=" + password + "]";
 	}
 	
 }
